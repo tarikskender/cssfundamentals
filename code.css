@@ -1,0 +1,109 @@
+#product-overview {
+  background: url("slika.jpg");
+  width: 100%;
+  height: 528px;
+  padding: 10px;
+}
+
+.section-title {
+  color: #2ddf5c;
+  text-align: center;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.plan_list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.plan--highlited {
+  color: white;
+  background: #19b84c;
+  box-shadow: 2px 2px 2px 2px rgba(105, 93, 93);
+}
+
+.plan__annotation {
+  background: white;
+  padding: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(105, 93, 93);
+  color: #19b84c;
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #0e4f1f;
+}
+
+.plan__price {
+  color: rgb(85, 85, 85);
+}
+
+.plan--highlited .plan__title {
+  color: white;
+}
+
+#key-features {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+
+#key-features .section-title {
+  color: white;
+  margin: 32px;
+}
+
+.key-feature__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.plan__features li {
+  margin: 8px 0;
+}

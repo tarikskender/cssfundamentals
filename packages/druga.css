@@ -1,0 +1,42 @@
+.sekcija {
+  margin-top: 20px;
+  background: #86eca1;
+  border: 3px solid green;
+  width: 75%;
+  padding: 20px;
+}
+
+.sekcija:hover {
+  border-color: red;
+  border-style: inset;
+  box-shadow: 2px 2px 2px 2px rgba(105, 93, 93);
+}
+
+.sekcija p {
+  border: 1px solid green;
+  padding: 10px;
+  background-color: white;
+  font-size: 20px;
+  color: black;
+}
+
+.sekcija h1 {
+  color: black;
+}
+
+.sekcija h2 {
+  color: rgb(100, 100, 100);
+}
+
+#treca-sekcija {
+  background: rgb(9, 54, 9);
+}
+
+#druga-sekcija {
+  float: right;
+  text-align: right;
+}
+
+.clearfix {
+  clear: both;
+}
